@@ -1,0 +1,52 @@
+html {
+font-family: "courier";
+}
+
+table.ingredientes {
+  width: 1024px;
+}
+
+table.ingredientes th.nombre {
+  width: 200px;
+}
+
+table.ingredientes th.cantidad, table.ingredientes th.equivalencia {
+  width: 150px;
+  text-align: center;
+}
+
+table.ingredientes td.cantidad, table.ingredientes td.equivalencia {
+  text-align: right;
+}
+
+table.ingredientes td {
+    padding: 5px 10px;
+}
+
+table.ingredientes td
+border-top:1px dotted #dddd;
+}
+
+table.ingredientes th {
+border-top:1px dotted #000;
+}
+
+table.ingredientes td.nombre {
+width:350px;
+}
+
+table.ingredientes th {
+border-top:1px dotted #000;
+}
+
+table.ingredientes td {
+border-bottom:1px dotted #ddd;
+}
+
+table.ingredientes tr:last-of-type td {
+border-bottom:1px dotted #000;
+}
+
+ul.lista {
+  line-height: 1.5em;
+}
